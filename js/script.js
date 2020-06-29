@@ -13,6 +13,26 @@ var doCoolStuff = function () {
 
 }
 
+var bankAccount = {
+	moneyCount: 0
+}
+	
+var	moneyClick =  function () {
+	bankAccount.moneyCount += 1;
+	console.log("Money Click")
+	console.log(bankAccount.moneyCount)
+	value = bankAccount.moneyCount;
+	document.getElementById('output').innerHTML = "$ " + value;
+	if (value >= 50) {
+		document.getElementById('output').innerHTML = "Congratulations, you're rich!"
+	}
+}
+
+var purchase = function () {
+	bankAccount.moneyCount -= 50;
+
+}
+
 var car = {
 	make: "VW",
 	type: "Polo",
@@ -28,10 +48,6 @@ var car = {
 	fly: function () {
 		alert("Wat leuk, je hebt op me gedrukt!");
 	}
-};
-
-var bankAccount = {
-	moneyCount: 0,
 };
 
 console.log("Welcome to the console!")

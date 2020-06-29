@@ -1,14 +1,52 @@
+
+
 body{
 	background-color: grey;
+	margin: 0;
+	text-align: center;
+}
+
+header{
+	text-align: center;
+	font: helvetica;
+	font-size: 50px;
+	background-color: blue;
+	height: 100px;
+	margin:; 0;
+	padding-top: 100px;
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
 }
 
 .cool{
+	text-align: center;
+	display: none;
 	width:  100px;
-	height: 100px;
+	height: 75px;
 	background-color: blue;
 	transition: background-color 1s;
+	margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
 }
 
 .cool.red{
+	text-align: center;
+	display: block;
 	background-color: red;
+	margin: auto;
+ 	width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
 }
+
+.button{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+body.
