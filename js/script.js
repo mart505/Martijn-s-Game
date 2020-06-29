@@ -19,8 +19,7 @@ var bankAccount = {
 	
 var	moneyClick =  function () {
 	bankAccount.moneyCount += 1;
-	console.log("Money Click")
-	console.log(bankAccount.moneyCount)
+	console.log("Money Click" + ankAccount.moneyCount)
 	value = bankAccount.moneyCount;
 	document.getElementById('output').innerHTML = "$ " + value;
 	if (value >= 50) {
